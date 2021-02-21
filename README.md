@@ -46,7 +46,8 @@ From inside that directory you can:
     status --is-interactive; and pyenv init - | source
     status --is-interactive; and pyenv virtualenv-init - | source
     ```
-
+    **Ubuntu Desktop note**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.
+    
     **Zsh note**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
     
     **Pyenv note**: You may also need to add `eval "$(pyenv init -)"` to your profile if you haven't done so already.
